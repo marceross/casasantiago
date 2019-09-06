@@ -1,4 +1,4 @@
-@font-face{
+overflow-x: @font-face{
     font-family:'alh-icons';
     src:url("../fonts/alh-icons.eot?8g8prv");
     src:url("../fonts/alh-icons.eot?8g8prv#iefix") format("embedded-opentype"),url("../fonts/alh-icons.woff2?8g8prv") format("woff2"),url("../fonts/alh-icons.ttf?8g8prv") format("truetype"),url("../fonts/alh-icons.woff?8g8prv") format("woff"),url("../fonts/alh-icons.svg?8g8prv#alh-icons") format("svg");
@@ -2070,6 +2070,32 @@ body,html{
         font-size:36px !important;
         margin-top:0 !important
     }
+      .main-wrapper .main-page-header .header-bg-image {  width: auto;
+    height: 115%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateY(-50%) translateX(-50%);
+    -khtml-transform: translateY(-50%) translateX(-50%);
+    -moz-transform: translateY(-50%) translateX(-50%);
+    -ms-transform: translateY(-50%) translateX(-50%);
+    -o-transform: translateY(-50%) translateX(-50%);
+    transform: translateY(-50%) translateX(-50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -khtml-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -o-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background-size: cover;}
 }
 .two-column-text{
     -webkit-columns:2;
